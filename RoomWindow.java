@@ -24,6 +24,6 @@ public class RoomWindow {
     }
 
     private void closeRoomWindow() {
-        roomFrame.dispose();  // Close the room window
+        roomFrame.dispose();  
     }
 }

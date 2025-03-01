@@ -17,9 +17,8 @@ public class MainApplication {
         gridPanel = new JPanel();
         gridPanel.setLayout(new GridLayout(3, 3, 10, 10));
 
-        // Create a grid of buttons for Room 009 to Room 001
         for (int i = 9; i >= 1; i--) {
-            RoomButton button = new RoomButton(i);  // Create a button for each room
+            RoomButton button = new RoomButton(i); 
             gridPanel.add(button);
         }
 
